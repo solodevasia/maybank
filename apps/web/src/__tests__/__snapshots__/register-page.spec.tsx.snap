@@ -1,0 +1,422 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RegisterPage 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex items-center justify-center h-[100vh]"
+      >
+        <div
+          class="h-[60vh] w-full flex items-center justify-center"
+        >
+          <div>
+            <div
+              class="w-full text-center leading-[60px]"
+            >
+              <div
+                class="text-[120px] font-bold text-black font-smooch"
+              >
+                Join Us
+              </div>
+              <span
+                class="text-[14px] font-poppins"
+              >
+                We are glad you want to join us.
+              </span>
+            </div>
+            <div
+              class="mt-2"
+            >
+              <div
+                class="w-[364px] bg-[#f4f4f4] rounded-[13px] h-[52px] flex items-center px-4"
+              >
+                <img
+                  alt="[object Object]"
+                  class="w-[24px] h-[24px] mr-2"
+                  data-nimg="1"
+                  decoding="async"
+                  height="1"
+                  loading="lazy"
+                  src="src/assets/account.svg"
+                  style="color: transparent;"
+                  width="1"
+                />
+                <input
+                  autocomplete="off"
+                  class="w-full outline-none border-none bg-transparent text-[12px] text-poppins text-[#1C1C1C] placeholder-[#1C1C1C]"
+                  data-testid="name-input__testid"
+                  id="name-input__testid"
+                  name="name"
+                  placeholder="Username"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="mt-6"
+            >
+              <div
+                class="w-[364px] bg-[#f4f4f4] rounded-[13px] h-[52px] flex items-center px-4"
+              >
+                <img
+                  alt="[object Object]"
+                  class="w-[24px] h-[24px] mr-2"
+                  data-nimg="1"
+                  decoding="async"
+                  height="1"
+                  loading="lazy"
+                  src="src/assets/account.svg"
+                  style="color: transparent;"
+                  width="1"
+                />
+                <input
+                  autocomplete="off"
+                  class="w-full outline-none border-none bg-transparent text-[12px] text-poppins text-[#1C1C1C] placeholder-[#1C1C1C]"
+                  data-testid="email-input__testid"
+                  id="email-input__testid"
+                  name="email"
+                  placeholder="Enter your email address"
+                  type="email"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="mt-6"
+            >
+              <div
+                class="w-[364px] bg-[#f4f4f4] rounded-[13px] h-[52px] flex items-center px-4"
+              >
+                <img
+                  alt="[object Object]"
+                  class="w-[24px] h-[24px] mr-2"
+                  data-nimg="1"
+                  decoding="async"
+                  height="1"
+                  loading="lazy"
+                  src="src/assets/lock.svg"
+                  style="color: transparent;"
+                  width="1"
+                />
+                <input
+                  autocomplete="off"
+                  class="w-full outline-none border-none bg-transparent text-[12px] text-poppins text-[#1C1C1C] placeholder-[#1C1C1C]"
+                  data-testid="password-input__testid"
+                  id="password-input__testid"
+                  name="password"
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="mt-6"
+            >
+              <div
+                class="w-[364px] bg-[#f4f4f4] rounded-[13px] h-[52px] flex items-center px-4"
+              >
+                <img
+                  alt="[object Object]"
+                  class="w-[24px] h-[24px] mr-2"
+                  data-nimg="1"
+                  decoding="async"
+                  height="1"
+                  loading="lazy"
+                  src="src/assets/lock.svg"
+                  style="color: transparent;"
+                  width="1"
+                />
+                <input
+                  autocomplete="off"
+                  class="w-full outline-none border-none bg-transparent text-[12px] text-poppins text-[#1C1C1C] placeholder-[#1C1C1C]"
+                  data-testid="confirmation-input__testid"
+                  id="confirmation-input__testid"
+                  name="confirmation"
+                  placeholder="Confirmation"
+                  type="password"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="flex items-center justify-center mt-6"
+            >
+              <button
+                class="w-[364px] h-[52px] bg-[#1C1C1C] text-[#FFFFFF] rounded-[13px] font-poppins font-bold text-[12px] relative undefined text-disabled bg-disabled cursor-no-drop"
+                data-testid="button-register__testid"
+                id="button-register__testid"
+                type="button"
+              >
+                <span>
+                  Next
+                </span>
+              </button>
+            </div>
+            <div
+              class="text-center mt-7 font-poppins"
+            >
+              You Don't have an account ?
+               
+              <span
+                class="cursor-pointer hover:text-blue-500 hover:underline"
+              >
+                Log in
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full"
+        >
+          <img
+            alt="[object Object]"
+            data-nimg="1"
+            decoding="async"
+            height="1"
+            loading="lazy"
+            src="src/assets/Wallpaper.svg"
+            style="color: transparent;"
+            width="1"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex items-center justify-center h-[100vh]"
+    >
+      <div
+        class="h-[60vh] w-full flex items-center justify-center"
+      >
+        <div>
+          <div
+            class="w-full text-center leading-[60px]"
+          >
+            <div
+              class="text-[120px] font-bold text-black font-smooch"
+            >
+              Join Us
+            </div>
+            <span
+              class="text-[14px] font-poppins"
+            >
+              We are glad you want to join us.
+            </span>
+          </div>
+          <div
+            class="mt-2"
+          >
+            <div
+              class="w-[364px] bg-[#f4f4f4] rounded-[13px] h-[52px] flex items-center px-4"
+            >
+              <img
+                alt="[object Object]"
+                class="w-[24px] h-[24px] mr-2"
+                data-nimg="1"
+                decoding="async"
+                height="1"
+                loading="lazy"
+                src="src/assets/account.svg"
+                style="color: transparent;"
+                width="1"
+              />
+              <input
+                autocomplete="off"
+                class="w-full outline-none border-none bg-transparent text-[12px] text-poppins text-[#1C1C1C] placeholder-[#1C1C1C]"
+                data-testid="name-input__testid"
+                id="name-input__testid"
+                name="name"
+                placeholder="Username"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="w-[364px] bg-[#f4f4f4] rounded-[13px] h-[52px] flex items-center px-4"
+            >
+              <img
+                alt="[object Object]"
+                class="w-[24px] h-[24px] mr-2"
+                data-nimg="1"
+                decoding="async"
+                height="1"
+                loading="lazy"
+                src="src/assets/account.svg"
+                style="color: transparent;"
+                width="1"
+              />
+              <input
+                autocomplete="off"
+                class="w-full outline-none border-none bg-transparent text-[12px] text-poppins text-[#1C1C1C] placeholder-[#1C1C1C]"
+                data-testid="email-input__testid"
+                id="email-input__testid"
+                name="email"
+                placeholder="Enter your email address"
+                type="email"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="w-[364px] bg-[#f4f4f4] rounded-[13px] h-[52px] flex items-center px-4"
+            >
+              <img
+                alt="[object Object]"
+                class="w-[24px] h-[24px] mr-2"
+                data-nimg="1"
+                decoding="async"
+                height="1"
+                loading="lazy"
+                src="src/assets/lock.svg"
+                style="color: transparent;"
+                width="1"
+              />
+              <input
+                autocomplete="off"
+                class="w-full outline-none border-none bg-transparent text-[12px] text-poppins text-[#1C1C1C] placeholder-[#1C1C1C]"
+                data-testid="password-input__testid"
+                id="password-input__testid"
+                name="password"
+                placeholder="Password"
+                type="password"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="w-[364px] bg-[#f4f4f4] rounded-[13px] h-[52px] flex items-center px-4"
+            >
+              <img
+                alt="[object Object]"
+                class="w-[24px] h-[24px] mr-2"
+                data-nimg="1"
+                decoding="async"
+                height="1"
+                loading="lazy"
+                src="src/assets/lock.svg"
+                style="color: transparent;"
+                width="1"
+              />
+              <input
+                autocomplete="off"
+                class="w-full outline-none border-none bg-transparent text-[12px] text-poppins text-[#1C1C1C] placeholder-[#1C1C1C]"
+                data-testid="confirmation-input__testid"
+                id="confirmation-input__testid"
+                name="confirmation"
+                placeholder="Confirmation"
+                type="password"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="flex items-center justify-center mt-6"
+          >
+            <button
+              class="w-[364px] h-[52px] bg-[#1C1C1C] text-[#FFFFFF] rounded-[13px] font-poppins font-bold text-[12px] relative undefined text-disabled bg-disabled cursor-no-drop"
+              data-testid="button-register__testid"
+              id="button-register__testid"
+              type="button"
+            >
+              <span>
+                Next
+              </span>
+            </button>
+          </div>
+          <div
+            class="text-center mt-7 font-poppins"
+          >
+            You Don't have an account ?
+             
+            <span
+              class="cursor-pointer hover:text-blue-500 hover:underline"
+            >
+              Log in
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full"
+      >
+        <img
+          alt="[object Object]"
+          data-nimg="1"
+          decoding="async"
+          height="1"
+          loading="lazy"
+          src="src/assets/Wallpaper.svg"
+          style="color: transparent;"
+          width="1"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

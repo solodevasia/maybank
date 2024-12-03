@@ -1,0 +1,1 @@
+{"id":15,"name":"Christiana.Stracke","email":"Kirstin.Ondricka34@gmail.com","password":"$2b$10$TtErTRK8lBGWlB9ffLwQQuR8v868aXfaGrKc3.lud2snDxZ47Kiu2","pic":null,"role":2,"created_at":"2024-12-03T05:19:25.624Z","is_active":false}

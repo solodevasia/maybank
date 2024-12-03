@@ -1,0 +1,78 @@
+name: base
+
+on:
+  push:
+    branches:
+      - "main"
+      - "web"
+  pull_request:
+    branches:
+      - "main"
+      - "web"
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: v22.11.0
+
+      - name: setup pnpm
+        id: pnpm-install
+        uses: pnpm/action-setup@v4
+        with:
+          version: v9.13.2
+          run_install: true
+
+      - name: get pnpm store path
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: setup cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+
+      - name: install dependencies
+        run: pnpm install -w
+
+      # Apps Backend
+
+      - name: apps backend lint
+        run: pnpm --filter backend lint
+
+      - name: apps backend test
+        run: pnpm --filter backend test
+
+      - name: apps backend build
+        run: pnpm --filter backend build
+
+      # Web Service
+
+      - name: web service lint
+        run: pnpm --filter web lint
+
+      - name: web service test
+        run: pnpm --filter web test
+
+      - name: web service build
+        run: pnpm --filter web build
+
+      # PNPM
+
+      # - name: test
+      #   run: pnpm run --parallel -r test
+
+      - name: build
+        run: pnpm run --parallel -r build

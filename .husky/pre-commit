@@ -1,0 +1,10 @@
+pnpm --filter backend lint
+pnpm --filter backend test
+pnpm --filter backend build
+
+pnpm --filter web lint
+pnpm --filter web test
+pnpm --filter web build
+
+pnpm run --parallel -r test
+pnpm run --parallel -r build

@@ -24,6 +24,12 @@ How to running backend
 pnpm --filter backend start
 ```
 
+How to running test
+
+```
+pnpm --filter backend test
+```
+
 How to running frontend
 
 ```

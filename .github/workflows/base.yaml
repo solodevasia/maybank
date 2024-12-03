@@ -27,7 +27,7 @@ jobs:
         id: pnpm-install
         uses: pnpm/action-setup@v4
         with:
-          version: v9.13.2
+          version: v9.14.4
           run_install: true
 
       - name: get pnpm store path
